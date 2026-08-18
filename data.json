@@ -10,16 +10,19 @@
     {
       "type": "banner",
       "level": "dark",
-      "title": "Offer Definition"
+      "title": "Offer Definition",
+      "id": "sec001"
     },
     {
       "type": "banner",
       "level": "light",
-      "title": "Planning"
+      "title": "Planning",
+      "id": "sec002"
     },
     {
       "type": "sub",
-      "title": "Product & Offer"
+      "title": "Product & Offer",
+      "id": "sub001"
     },
     {
       "type": "item",
@@ -29,7 +32,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -39,7 +43,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -49,7 +54,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -59,7 +65,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -69,7 +76,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -79,11 +87,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "IT Requirements"
+      "title": "IT Requirements",
+      "id": "sub002"
     },
     {
       "type": "item",
@@ -93,7 +103,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -103,7 +114,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -113,7 +125,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -123,7 +136,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -133,7 +147,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -143,7 +158,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -153,7 +169,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -163,11 +180,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Demand Planning & Inventory"
+      "title": "Demand Planning & Inventory",
+      "id": "sub003"
     },
     {
       "type": "item",
@@ -177,7 +196,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -187,7 +207,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -197,11 +218,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Customer Experience"
+      "title": "Customer Experience",
+      "id": "sub004"
     },
     {
       "type": "item",
@@ -211,7 +234,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -221,7 +245,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -231,11 +256,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Knowledge"
+      "title": "Knowledge",
+      "id": "sub005"
     },
     {
       "type": "item",
@@ -245,7 +272,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -255,7 +283,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -265,7 +294,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -275,7 +305,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -285,11 +316,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Demo Devices"
+      "title": "Demo Devices",
+      "id": "sub006"
     },
     {
       "type": "item",
@@ -299,7 +332,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -309,7 +343,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -319,7 +354,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -329,7 +365,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -339,11 +376,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Marketing Strategy"
+      "title": "Marketing Strategy",
+      "id": "sub007"
     },
     {
       "type": "item",
@@ -353,7 +392,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -363,7 +403,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -373,7 +414,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -383,7 +425,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -393,7 +436,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -403,11 +447,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Sales Strategy"
+      "title": "Sales Strategy",
+      "id": "sub008"
     },
     {
       "type": "item",
@@ -417,7 +463,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -427,11 +474,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "Reporting"
+      "title": "Reporting",
+      "id": "sub009"
     },
     {
       "type": "item",
@@ -441,7 +490,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -451,11 +501,13 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "sub",
-      "title": "PR"
+      "title": "PR",
+      "id": "sub010"
     },
     {
       "type": "item",
@@ -465,7 +517,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -475,7 +528,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -485,16 +539,19 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "banner",
       "level": "light",
-      "title": "Development - Apple Announcement"
+      "title": "Development - Apple Announcement",
+      "id": "sec003"
     },
     {
       "type": "sub",
-      "title": "Product & Offer"
+      "title": "Product & Offer",
+      "id": "sub011"
     },
     {
       "type": "item",
@@ -504,7 +561,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -514,7 +572,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -524,7 +583,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -534,7 +594,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -544,7 +605,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -554,7 +616,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -564,7 +627,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -574,7 +638,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -584,7 +649,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -594,12 +660,14 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "banner",
       "level": "light",
-      "title": "Operational Readiness"
+      "title": "Operational Readiness",
+      "id": "sec004"
     },
     {
       "type": "item",
@@ -609,7 +677,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -619,7 +688,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -629,7 +699,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -639,7 +710,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -649,7 +721,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -659,7 +732,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -669,7 +743,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -679,7 +754,8 @@
       "progress": 0,
       "comments": "",
       "risk": "",
-      "mitigation": ""
+      "mitigation": "",
+      "responsible": "Not Assigned Yet"
     }
   ]
 }

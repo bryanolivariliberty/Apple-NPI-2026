@@ -9,10 +9,26 @@
 </head>
 <body>
 
+<div id="loginGate" class="login-gate">
+  <div class="login-box">
+    <div class="login-eyebrow">B2B GTM Team</div>
+    <h2>Apple NPI 2026 — Editor Access</h2>
+    <p>Enter the editor password to continue.</p>
+    <input type="password" id="pwInput" placeholder="Password" autocomplete="off" />
+    <button id="pwSubmit" class="btn primary">Unlock</button>
+    <p id="pwError" class="pw-error"></p>
+  </div>
+</div>
+
+<div id="editorContent" class="editor-content hidden">
+
 <div class="topbar">
-  <div class="titleblock">
-    <div class="eyebrow">Offer | Product Name</div>
-    <h1 id="productName">Apple NPI 2026 <span class="mode-tag">Editor</span></h1>
+  <div class="topbar-left">
+    <img class="logo" src="assets/liberty-business-logo.png" alt="Liberty Business" />
+    <div class="titleblock">
+      <div class="eyebrow">B2B GTM Team</div>
+      <h1 id="productName">Apple NPI 2026 <span class="mode-tag">Editor</span></h1>
+    </div>
   </div>
   <div class="dates">
     <div class="date-chip"><div class="label">Announcement</div><div class="value" id="dAnnounce">—</div></div>
@@ -22,6 +38,73 @@
 </div>
 
 <div class="summary-bar" id="summaryBar"></div>
+
+<div class="structural-toolbar">
+  <button class="btn secondary" id="btnShowAddSection">+ Add Section</button>
+  <button class="btn secondary" id="btnShowAddSub">+ Add Subsection</button>
+  <button class="btn secondary" id="btnShowAddTask">+ Add Task</button>
+</div>
+
+<div class="add-panel hidden" id="addSectionPanel">
+  <div class="add-panel-title">New Section</div>
+  <div class="add-panel-grid">
+    <div class="edit-field full">
+      <label for="newSectionTitle">Section title</label>
+      <input type="text" id="newSectionTitle" placeholder="e.g. Post-Launch Review" />
+    </div>
+    <div class="edit-field">
+      <label for="newSectionLevel">Banner style</label>
+      <select id="newSectionLevel">
+        <option value="dark">Dark (like "Offer Definition")</option>
+        <option value="light" selected>Light (like "Planning")</option>
+      </select>
+    </div>
+    <div class="edit-field">
+      <label for="addSectionPos">Insert after</label>
+      <select id="addSectionPos"></select>
+    </div>
+  </div>
+  <div class="add-panel-actions">
+    <button class="btn primary" id="btnConfirmAddSection">Add Section</button>
+    <button class="btn ghost" id="btnCancelAddSection">Cancel</button>
+  </div>
+</div>
+
+<div class="add-panel hidden" id="addSubPanel">
+  <div class="add-panel-title">New Subsection</div>
+  <div class="add-panel-grid">
+    <div class="edit-field full">
+      <label for="newSubTitle">Subsection title</label>
+      <input type="text" id="newSubTitle" placeholder="e.g. Logistics" />
+    </div>
+    <div class="edit-field full">
+      <label for="addSubPos">Insert after</label>
+      <select id="addSubPos"></select>
+    </div>
+  </div>
+  <div class="add-panel-actions">
+    <button class="btn primary" id="btnConfirmAddSub">Add Subsection</button>
+    <button class="btn ghost" id="btnCancelAddSub">Cancel</button>
+  </div>
+</div>
+
+<div class="add-panel hidden" id="addTaskPanel">
+  <div class="add-panel-title">New Task</div>
+  <div class="add-panel-grid">
+    <div class="edit-field full">
+      <label for="newTaskTitle">Task description</label>
+      <input type="text" id="newTaskTitle" placeholder="e.g. Confirm carrier readiness" />
+    </div>
+    <div class="edit-field full">
+      <label for="addTaskPos">Insert after</label>
+      <select id="addTaskPos"></select>
+    </div>
+  </div>
+  <div class="add-panel-actions">
+    <button class="btn primary" id="btnConfirmAddTask">Add Task</button>
+    <button class="btn ghost" id="btnCancelAddTask">Cancel</button>
+  </div>
+</div>
 
 <main id="main">
   <div class="empty-state">Loading tracker...</div>
@@ -34,8 +117,52 @@
   <span class="save-status" id="saveStatus"></span>
 </div>
 
+</div><!-- /editorContent -->
+
 <script src="app.js"></script>
 <script>
+  // ---------------------------------------------------------------------
+  // Basic front-end password gate. This is a DETERRENT, not real security —
+  // the password below is visible to anyone who views this page's source.
+  // Change it to whatever you like; just edit the string on the next line.
+  const EDITOR_PASSWORD = "B2BCX";
+  // For real access control (so the password isn't just sitting in the
+  // source), use Vercel's built-in Deployment Protection / password
+  // protection feature on this project instead of (or in addition to) this.
+  // ---------------------------------------------------------------------
+
+  const SESSION_KEY = "npi2026_editor_unlocked";
+
+  function showEditor() {
+    document.getElementById("loginGate").style.display = "none";
+    document.getElementById("editorContent").classList.remove("hidden");
+    startEditorApp();
+  }
+
+  function tryUnlock() {
+    const val = document.getElementById("pwInput").value;
+    if (val === EDITOR_PASSWORD) {
+      sessionStorage.setItem(SESSION_KEY, "1");
+      showEditor();
+    } else {
+      const err = document.getElementById("pwError");
+      err.textContent = "Incorrect password. Try again.";
+      document.getElementById("pwInput").value = "";
+      document.getElementById("pwInput").focus();
+    }
+  }
+
+  document.getElementById("pwSubmit").addEventListener("click", tryUnlock);
+  document.getElementById("pwInput").addEventListener("keydown", e => {
+    if (e.key === "Enter") tryUnlock();
+  });
+
+  if (sessionStorage.getItem(SESSION_KEY) === "1") {
+    showEditor();
+  } else {
+    document.getElementById("pwInput").focus();
+  }
+
   const MODE = "edit";
   let originalData = null;   // last data.json fetched from server
   let workingData = null;    // in-memory + localStorage draft
@@ -77,15 +204,16 @@
   function paint() {
     paintMeta();
     renderSummary(document.getElementById("summaryBar"), workingData.meta, workingData.rows);
-    renderEdit(document.getElementById("main"), workingData.meta, workingData.rows, currentQuery, onFieldChange);
+    renderEdit(document.getElementById("main"), workingData.meta, workingData.rows, currentQuery, onFieldChange, onStructural);
     const search = document.getElementById("searchInput");
     if (search) {
       search.value = currentQuery;
       search.oninput = e => {
         currentQuery = e.target.value;
-        renderEdit(document.getElementById("main"), workingData.meta, workingData.rows, currentQuery, onFieldChange);
+        renderEdit(document.getElementById("main"), workingData.meta, workingData.rows, currentQuery, onFieldChange, onStructural);
       };
     }
+    refreshPositionDropdowns();
   }
 
   function onFieldChange(id, field, value) {
@@ -111,8 +239,119 @@
         if (fill) fill.style.width = value + "%";
         if (pctNum) pctNum.textContent = value + "%";
       }
+      if (field === "description") {
+        const descEl = card.querySelector(".item-top .item-desc");
+        if (descEl) descEl.textContent = value;
+      }
     }
   }
+
+  function onStructural(action, id) {
+    if (action === "rename") {
+      const row = workingData.rows.find(r => r.id === id);
+      if (!row) return;
+      const val = prompt("New title:", row.title);
+      if (val === null) return;
+      const trimmed = val.trim();
+      if (!trimmed) return;
+      row.title = trimmed;
+      workingData.meta.lastUpdated = new Date().toISOString();
+      saveDraft();
+      paint();
+    } else if (action === "delete-section") {
+      const { count } = cascadeDeleteInfo(workingData.rows, id);
+      const row = workingData.rows.find(r => r.id === id);
+      if (!confirm(`Delete section "${row.title}" and everything under it (${count - 1} row${count - 1 === 1 ? "" : "s"}, including subsections and tasks)? This can't be undone.`)) return;
+      cascadeDelete(workingData.rows, id);
+      workingData.meta.lastUpdated = new Date().toISOString();
+      saveDraft();
+      paint();
+    } else if (action === "delete-sub") {
+      const { count } = cascadeDeleteInfo(workingData.rows, id);
+      const row = workingData.rows.find(r => r.id === id);
+      if (!confirm(`Delete subsection "${row.title}" and its ${count - 1} task${count - 1 === 1 ? "" : "s"}? This can't be undone.`)) return;
+      cascadeDelete(workingData.rows, id);
+      workingData.meta.lastUpdated = new Date().toISOString();
+      saveDraft();
+      paint();
+    } else if (action === "remove-item") {
+      const row = workingData.rows.find(r => r.id === id);
+      if (!confirm(`Remove task "${row.description}"?`)) return;
+      removeItem(workingData.rows, id);
+      workingData.meta.lastUpdated = new Date().toISOString();
+      saveDraft();
+      paint();
+    } else if (action === "move-up" || action === "move-down") {
+      moveRow(workingData.rows, id, action === "move-up" ? "up" : "down");
+      workingData.meta.lastUpdated = new Date().toISOString();
+      saveDraft();
+      paint();
+    }
+  }
+
+  function refreshPositionDropdowns() {
+    ["addSectionPos", "addSubPos", "addTaskPos"].forEach(selId => {
+      const sel = document.getElementById(selId);
+      if (!sel) return;
+      const prevVal = sel.value;
+      sel.innerHTML = buildPositionOptions(workingData.rows, prevVal);
+    });
+  }
+
+  function togglePanel(panelId) {
+    document.querySelectorAll(".add-panel").forEach(p => {
+      if (p.id !== panelId) p.classList.add("hidden");
+    });
+    document.getElementById(panelId).classList.toggle("hidden");
+  }
+
+  document.getElementById("btnShowAddSection").addEventListener("click", () => togglePanel("addSectionPanel"));
+  document.getElementById("btnShowAddSub").addEventListener("click", () => togglePanel("addSubPanel"));
+  document.getElementById("btnShowAddTask").addEventListener("click", () => togglePanel("addTaskPanel"));
+
+  document.getElementById("btnCancelAddSection").addEventListener("click", () => togglePanel("addSectionPanel"));
+  document.getElementById("btnCancelAddSub").addEventListener("click", () => togglePanel("addSubPanel"));
+  document.getElementById("btnCancelAddTask").addEventListener("click", () => togglePanel("addTaskPanel"));
+
+  document.getElementById("btnConfirmAddSection").addEventListener("click", () => {
+    const title = document.getElementById("newSectionTitle").value.trim();
+    if (!title) { alert("Give the section a title first."); return; }
+    const level = document.getElementById("newSectionLevel").value;
+    const afterId = document.getElementById("addSectionPos").value;
+    const row = blankSection(workingData.rows, title, level);
+    insertRowAfter(workingData.rows, afterId, row);
+    document.getElementById("newSectionTitle").value = "";
+    workingData.meta.lastUpdated = new Date().toISOString();
+    saveDraft();
+    togglePanel("addSectionPanel");
+    paint();
+  });
+
+  document.getElementById("btnConfirmAddSub").addEventListener("click", () => {
+    const title = document.getElementById("newSubTitle").value.trim();
+    if (!title) { alert("Give the subsection a title first."); return; }
+    const afterId = document.getElementById("addSubPos").value;
+    const row = blankSubsection(workingData.rows, title);
+    insertRowAfter(workingData.rows, afterId, row);
+    document.getElementById("newSubTitle").value = "";
+    workingData.meta.lastUpdated = new Date().toISOString();
+    saveDraft();
+    togglePanel("addSubPanel");
+    paint();
+  });
+
+  document.getElementById("btnConfirmAddTask").addEventListener("click", () => {
+    const desc = document.getElementById("newTaskTitle").value.trim();
+    if (!desc) { alert("Give the task a description first."); return; }
+    const afterId = document.getElementById("addTaskPos").value;
+    const row = blankItem(workingData.rows, desc);
+    insertRowAfter(workingData.rows, afterId, row);
+    document.getElementById("newTaskTitle").value = "";
+    workingData.meta.lastUpdated = new Date().toISOString();
+    saveDraft();
+    togglePanel("addTaskPanel");
+    paint();
+  });
 
   document.getElementById("btnExport").addEventListener("click", () => {
     workingData.meta.lastUpdated = new Date().toISOString();
@@ -134,7 +373,7 @@
     paint();
   });
 
-  (async function init() {
+  async function startEditorApp() {
     try {
       originalData = await loadOriginal();
       workingData = loadDraftOrOriginal(originalData);
@@ -143,7 +382,7 @@
       document.getElementById("main").innerHTML =
         '<div class="empty-state">Could not load data.json. Make sure this file sits next to data.json, app.js, and styles.css.</div>';
     }
-  })();
+  }
 </script>
 </body>
 </html>
