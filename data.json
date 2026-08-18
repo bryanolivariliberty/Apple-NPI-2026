@@ -1,0 +1,685 @@
+{
+  "meta": {
+    "productName": "Apple NPI 2026",
+    "announcementDate": "September 8",
+    "preOrderRange": "September 11–17",
+    "launchDate": "September 18",
+    "lastUpdated": ""
+  },
+  "rows": [
+    {
+      "type": "banner",
+      "level": "dark",
+      "title": "Offer Definition"
+    },
+    {
+      "type": "banner",
+      "level": "light",
+      "title": "Planning"
+    },
+    {
+      "type": "sub",
+      "title": "Product & Offer"
+    },
+    {
+      "type": "item",
+      "id": "m001",
+      "description": "Dummy offer configuration",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m002",
+      "description": "Submit Creation of Dummy SKU's in SAP",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m003",
+      "description": "Submit Creation of Dummy SKU's in B2B Soft",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m004",
+      "description": "Submit Creation of Dummy SKU's in SF",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m005",
+      "description": "Product Catalog Configuration",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m006",
+      "description": "Accessories Order",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "IT Requirements"
+    },
+    {
+      "type": "item",
+      "id": "m007",
+      "description": "IT Demand requirements & submission",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m008",
+      "description": "IT Demand approval",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m009",
+      "description": "Requirements refinement",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m010",
+      "description": "System configuration",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m011",
+      "description": "UAT Testing",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m012",
+      "description": "Release to Production",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m013",
+      "description": "Coordinate testing in Production",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m014",
+      "description": "Approve test cases scenarios",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Demand Planning & Inventory"
+    },
+    {
+      "type": "item",
+      "id": "m015",
+      "description": "Forecast inventory | Fast Ship | Wish List",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m016",
+      "description": "P.O. Submission",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m017",
+      "description": "Channel distribution: Retail, CARE, Digital, Agents, B2B",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Customer Experience"
+    },
+    {
+      "type": "item",
+      "id": "m018",
+      "description": "Customer Journey Creation - B2C Call Center/Retail",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m019",
+      "description": "Customer Journey Creation - B2C Digital",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m020",
+      "description": "Customer Notifications",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Knowledge"
+    },
+    {
+      "type": "item",
+      "id": "m021",
+      "description": "Create sales materials, FAQs, and job aid",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m022",
+      "description": "Approval of knowledge material",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m023",
+      "description": "Content in My Knowledge",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m024",
+      "description": "Training Execution",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m025",
+      "description": "Include competitive on Knowledge material",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Demo Devices"
+    },
+    {
+      "type": "item",
+      "id": "m026",
+      "description": "Demo devices quantities (Handsets and accessories)",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m027",
+      "description": "Demo devices allocation",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m028",
+      "description": "Demo Devices creation on SAP",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m029",
+      "description": "Demo Devices creation on B2B Soft",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m030",
+      "description": "Test Dummy SKU's",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Marketing Strategy"
+    },
+    {
+      "type": "item",
+      "id": "m031",
+      "description": "Define promotional strategy (ATL)",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m032",
+      "description": "Include Apple teaser on web pages",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m033",
+      "description": "Receipt of assets by Apple",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m034",
+      "description": "Digital Marketing campaign",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m035",
+      "description": "Liberty Web page",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m036",
+      "description": "Offer Terms & Conditions",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Sales Strategy"
+    },
+    {
+      "type": "item",
+      "id": "m037",
+      "description": "Incentive proposal",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m038",
+      "description": "Incentive approval",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "Reporting"
+    },
+    {
+      "type": "item",
+      "id": "m039",
+      "description": "Dashboard to monitor pre-order sales",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m040",
+      "description": "Report for pre-order completion & cancellations",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "sub",
+      "title": "PR"
+    },
+    {
+      "type": "item",
+      "id": "m041",
+      "description": "Press release & Internal communication",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m042",
+      "description": "Press communication template release from Apple",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m043",
+      "description": "Assets for communication",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "banner",
+      "level": "light",
+      "title": "Development - Apple Announcement"
+    },
+    {
+      "type": "sub",
+      "title": "Product & Offer"
+    },
+    {
+      "type": "item",
+      "id": "m044",
+      "description": "Replace dummy SKU value in SAP",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m045",
+      "description": "Extension of inventory among channels",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m046",
+      "description": "Replace dummy Promo / offers value in SF",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m047",
+      "description": "Replace dummy SKU value in B2B Soft",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m048",
+      "description": "New SKU's added on SF",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m049",
+      "description": "Launch and Allocation",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m050",
+      "description": "Arrival Date",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m051",
+      "description": "Define Retail device allocation",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m052",
+      "description": "Define DTC device allocation (Digital, Call center)",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m053",
+      "description": "Stock Check On | Off & Identify SKUs",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "banner",
+      "level": "light",
+      "title": "Operational Readiness"
+    },
+    {
+      "type": "item",
+      "id": "m054",
+      "description": "IT testing",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m055",
+      "description": "Customer Journey",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m056",
+      "description": "Content in My Knowledge",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m057",
+      "description": "Training Execution",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m058",
+      "description": "Supply Chain Readiness: Inventory Distribution",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m059",
+      "description": "Marketing Campaign Execution",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m060",
+      "description": "Cross-functional alignment",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m061",
+      "description": "Press release & Internal communication",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    }
+  ]
+}

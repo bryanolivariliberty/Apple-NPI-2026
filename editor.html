@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>NPI 2026 Tracker — Editor</title>
+<meta name="robots" content="noindex, nofollow" />
+<link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div class="topbar">
+  <div class="titleblock">
+    <div class="eyebrow">Offer | Product Name</div>
+    <h1 id="productName">Apple NPI 2026 <span class="mode-tag">Editor</span></h1>
+  </div>
+  <div class="dates">
+    <div class="date-chip"><div class="label">Announcement</div><div class="value" id="dAnnounce">—</div></div>
+    <div class="date-chip"><div class="label">Pre-Order</div><div class="value" id="dPreorder">—</div></div>
+    <div class="date-chip"><div class="label">Official Launch</div><div class="value" id="dLaunch">—</div></div>
+  </div>
+</div>
+
+<div class="summary-bar" id="summaryBar"></div>
+
+<main id="main">
+  <div class="empty-state">Loading tracker...</div>
+</main>
+
+<div class="toolbar">
+  <button class="btn primary" id="btnExport">⬇ Export updated data.json</button>
+  <button class="btn secondary" id="btnCopy">Copy JSON to clipboard</button>
+  <button class="btn ghost" id="btnReset">Reset to last published data.json</button>
+  <span class="save-status" id="saveStatus"></span>
+</div>
+
+<script src="app.js"></script>
+<script>
+  const MODE = "edit";
+  let originalData = null;   // last data.json fetched from server
+  let workingData = null;    // in-memory + localStorage draft
+  let currentQuery = "";
+
+  async function loadOriginal() {
+    const res = await fetch("./data.json", { cache: "no-store" });
+    return res.json();
+  }
+
+  function loadDraftOrOriginal(original) {
+    try {
+      const raw = localStorage.getItem("npi2026_tracker_draft");
+      if (raw) {
+        const draft = JSON.parse(raw);
+        if (draft && draft.rows && draft.rows.length === original.rows.length) {
+          return draft;
+        }
+      }
+    } catch (e) { /* ignore corrupt draft */ }
+    return JSON.parse(JSON.stringify(original));
+  }
+
+  function saveDraft() {
+    localStorage.setItem("npi2026_tracker_draft", JSON.stringify(workingData));
+    const el = document.getElementById("saveStatus");
+    el.textContent = "Draft saved locally — " + new Date().toLocaleTimeString();
+    el.classList.add("saved");
+  }
+
+  function paintMeta() {
+    document.getElementById("productName").innerHTML =
+      escapeHtml(workingData.meta.productName) + ' <span class="mode-tag">Editor</span>';
+    document.getElementById("dAnnounce").textContent = workingData.meta.announcementDate;
+    document.getElementById("dPreorder").textContent = workingData.meta.preOrderRange;
+    document.getElementById("dLaunch").textContent = workingData.meta.launchDate;
+  }
+
+  function paint() {
+    paintMeta();
+    renderSummary(document.getElementById("summaryBar"), workingData.meta, workingData.rows);
+    renderEdit(document.getElementById("main"), workingData.meta, workingData.rows, currentQuery, onFieldChange);
+    const search = document.getElementById("searchInput");
+    if (search) {
+      search.value = currentQuery;
+      search.oninput = e => {
+        currentQuery = e.target.value;
+        renderEdit(document.getElementById("main"), workingData.meta, workingData.rows, currentQuery, onFieldChange);
+      };
+    }
+  }
+
+  function onFieldChange(id, field, value) {
+    const row = workingData.rows.find(r => r.id === id);
+    if (!row) return;
+    row[field] = value;
+    workingData.meta.lastUpdated = new Date().toISOString();
+    saveDraft();
+    // Only re-render the summary bar (badges/progress), not the whole edit form,
+    // so the person doesn't lose focus while typing.
+    renderSummary(document.getElementById("summaryBar"), workingData.meta, workingData.rows);
+    // Update the badge + progress bar on the specific card without a full re-render
+    const card = document.getElementById(field + "-" + id)?.closest(".item-card");
+    if (card) {
+      const badge = card.querySelector(".badge");
+      if (badge && field === "status") {
+        badge.textContent = value;
+        badge.className = "badge " + statusClass(value);
+      }
+      if (field === "progress") {
+        const fill = card.querySelector(".item-top .progress-fill");
+        const pctNum = card.querySelector(".item-top .pct-num");
+        if (fill) fill.style.width = value + "%";
+        if (pctNum) pctNum.textContent = value + "%";
+      }
+    }
+  }
+
+  document.getElementById("btnExport").addEventListener("click", () => {
+    workingData.meta.lastUpdated = new Date().toISOString();
+    downloadJson(workingData, "data.json");
+  });
+
+  document.getElementById("btnCopy").addEventListener("click", async () => {
+    workingData.meta.lastUpdated = new Date().toISOString();
+    await navigator.clipboard.writeText(JSON.stringify(workingData, null, 2));
+    const el = document.getElementById("saveStatus");
+    el.textContent = "Copied JSON to clipboard";
+    el.classList.add("saved");
+  });
+
+  document.getElementById("btnReset").addEventListener("click", () => {
+    if (!confirm("Discard local edits and reload the published data.json?")) return;
+    workingData = JSON.parse(JSON.stringify(originalData));
+    localStorage.removeItem("npi2026_tracker_draft");
+    paint();
+  });
+
+  (async function init() {
+    try {
+      originalData = await loadOriginal();
+      workingData = loadDraftOrOriginal(originalData);
+      paint();
+    } catch (e) {
+      document.getElementById("main").innerHTML =
+        '<div class="empty-state">Could not load data.json. Make sure this file sits next to data.json, app.js, and styles.css.</div>';
+    }
+  })();
+</script>
+</body>
+</html>
