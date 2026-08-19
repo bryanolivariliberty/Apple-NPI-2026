@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": ""
+    "lastUpdated": "2026-08-19T00:21:43.788Z"
   },
   "rows": [
     {
@@ -223,13 +223,13 @@
     },
     {
       "type": "sub",
-      "title": "Customer Experience",
+      "title": "Customer Journey",
       "id": "sub004"
     },
     {
       "type": "item",
       "id": "m018",
-      "description": "Customer Journey Creation - B2C Call Center/Retail",
+      "description": "Customer Journey Creation - B2B Call Center/B2B Retail",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -240,18 +240,7 @@
     {
       "type": "item",
       "id": "m019",
-      "description": "Customer Journey Creation - B2C Digital",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m020",
-      "description": "Customer Notifications",
+      "description": "Customer Journey Creation - B2B Digital/Leads",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -261,7 +250,7 @@
     },
     {
       "type": "sub",
-      "title": "Knowledge",
+      "title": "Knowledge & Training Strategy",
       "id": "sub005"
     },
     {
@@ -318,6 +307,55 @@
       "risk": "",
       "mitigation": "",
       "responsible": "Not Assigned Yet"
+    },
+    {
+      "type": "sub",
+      "id": "sub012",
+      "title": "Communications Strategy"
+    },
+    {
+      "type": "item",
+      "id": "m062",
+      "description": "Lead Confirmation",
+      "responsible": "Not Assigned Yet",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m063",
+      "description": "Pre-Order Confirmation",
+      "responsible": "Not Assigned Yet",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m064",
+      "description": "Order Shipped",
+      "responsible": "Not Assigned Yet",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m065",
+      "description": "Backorder Device",
+      "responsible": "Not Assigned Yet",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
     },
     {
       "type": "sub",
@@ -387,7 +425,7 @@
     {
       "type": "item",
       "id": "m031",
-      "description": "Define promotional strategy (ATL)",
+      "description": "Define promotional strategy",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -431,7 +469,7 @@
     {
       "type": "item",
       "id": "m035",
-      "description": "Liberty Web page",
+      "description": "Liberty Web Page",
       "status": "Pending",
       "progress": 0,
       "comments": "",
