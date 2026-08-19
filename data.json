@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": "2026-08-19T00:21:43.788Z"
+    "lastUpdated": "2026-08-19T00:27:04.962Z"
   },
   "rows": [
     {
@@ -235,7 +235,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Anthony Pope"
     },
     {
       "type": "item",
@@ -246,7 +246,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Anthony Pope"
     },
     {
       "type": "sub",
@@ -262,7 +262,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "item",
@@ -273,7 +273,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "item",
@@ -284,7 +284,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "item",
@@ -295,7 +295,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "item",
@@ -306,7 +306,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "sub",
@@ -315,9 +315,20 @@
     },
     {
       "type": "item",
+      "id": "m066",
+      "description": "Assets for Communications",
+      "responsible": "Sonia Garcia | Keenan",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
       "id": "m062",
       "description": "Lead Confirmation",
-      "responsible": "Not Assigned Yet",
+      "responsible": "Sonia Garcia",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -328,7 +339,7 @@
       "type": "item",
       "id": "m063",
       "description": "Pre-Order Confirmation",
-      "responsible": "Not Assigned Yet",
+      "responsible": "Sonia Garcia",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -339,7 +350,7 @@
       "type": "item",
       "id": "m064",
       "description": "Order Shipped",
-      "responsible": "Not Assigned Yet",
+      "responsible": "Sonia Garcia",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -350,7 +361,7 @@
       "type": "item",
       "id": "m065",
       "description": "Backorder Device",
-      "responsible": "Not Assigned Yet",
+      "responsible": "Sonia Garcia",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -543,44 +554,6 @@
       "responsible": "Not Assigned Yet"
     },
     {
-      "type": "sub",
-      "title": "PR",
-      "id": "sub010"
-    },
-    {
-      "type": "item",
-      "id": "m041",
-      "description": "Press release & Internal communication",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m042",
-      "description": "Press communication template release from Apple",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m043",
-      "description": "Assets for communication",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
       "type": "banner",
       "level": "light",
       "title": "Development - Apple Announcement",
@@ -710,7 +683,7 @@
     {
       "type": "item",
       "id": "m054",
-      "description": "IT testing",
+      "description": "System Testing - UAT & PROD",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -787,7 +760,7 @@
     {
       "type": "item",
       "id": "m061",
-      "description": "Press release & Internal communication",
+      "description": "Press release & Internal Communication",
       "status": "Pending",
       "progress": 0,
       "comments": "",
