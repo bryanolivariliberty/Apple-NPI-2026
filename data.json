@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": "2026-08-20T18:09:19.979Z"
+    "lastUpdated": "2026-08-20T18:14:50.956Z"
   },
   "rows": [
     {
@@ -116,17 +116,6 @@
       "risk": "",
       "mitigation": "",
       "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
-    },
-    {
-      "type": "item",
-      "id": "m010",
-      "description": "System configuration",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
     },
     {
       "type": "item",
@@ -321,6 +310,17 @@
       "status": "Pending",
       "progress": 0,
       "comments": "",
+      "risk": "",
+      "mitigation": ""
+    },
+    {
+      "type": "item",
+      "id": "m068",
+      "description": "My Business Access Banners",
+      "responsible": "Sonia Garcia",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "Create 2 Banners for My BA to be configured in Salesforce. \n1. Pre Order\n2. Available NOW!!",
       "risk": "",
       "mitigation": ""
     },
@@ -557,7 +557,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Luis Torres "
     },
     {
       "type": "item",
