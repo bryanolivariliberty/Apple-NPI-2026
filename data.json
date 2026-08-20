@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": "2026-08-20T18:14:50.956Z"
+    "lastUpdated": "2026-08-20T18:19:02.585Z"
   },
   "rows": [
     {
@@ -27,7 +27,7 @@
     {
       "type": "item",
       "id": "m001",
-      "description": "Confirm Dummy offer configuration",
+      "description": "Confirm Dummy Offer Configuration",
       "status": "In Progress",
       "progress": 25,
       "comments": "",
@@ -38,7 +38,7 @@
     {
       "type": "item",
       "id": "m002",
-      "description": "Confirm submittal for Creation of Dummy SKU's in SAP",
+      "description": "Confirm Submittal for Creation of Dummy SKU's in SAP",
       "status": "In Progress",
       "progress": 25,
       "comments": "",
@@ -49,7 +49,7 @@
     {
       "type": "item",
       "id": "m003",
-      "description": "Confirm submittal for Creation of Dummy SKU's in B2B Soft",
+      "description": "Confirm Submittal for Creation of Dummy SKU's in B2B Soft",
       "status": "In Progress",
       "progress": 25,
       "comments": "",
@@ -60,7 +60,7 @@
     {
       "type": "item",
       "id": "m004",
-      "description": "Confirm submittal for Creation of Dummy SKU's in SF",
+      "description": "Confirm Submittal for Creation of Dummy SKU's in SF",
       "status": "In Progress",
       "progress": 25,
       "comments": "",
@@ -98,7 +98,7 @@
     {
       "type": "item",
       "id": "m007",
-      "description": "IT Demand requirements & submission",
+      "description": "IT Demand Requirements & Submission",
       "status": "Complete",
       "progress": 100,
       "comments": "https://lla.atlassian.net/browse/IT-21526 | https://lla.atlassian.net/browse/IT-21434",
@@ -109,7 +109,7 @@
     {
       "type": "item",
       "id": "m008",
-      "description": "IT Demand approval",
+      "description": "IT Demand Approval",
       "status": "In Progress",
       "progress": 60,
       "comments": "https://lla.atlassian.net/browse/IT-21526\nCristina Delgado - Waiting for approval\nManuel Lopez - Waiting for approval\nZoe Lawrenson - Waiting for approval\n\n",
@@ -142,7 +142,7 @@
     {
       "type": "item",
       "id": "m013",
-      "description": "Coordinate testing in Production",
+      "description": "Coordinate Testing in Production",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -153,7 +153,7 @@
     {
       "type": "item",
       "id": "m014",
-      "description": "Approve test cases scenarios",
+      "description": "Approve Test Cases Scenarios",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -191,7 +191,7 @@
     {
       "type": "item",
       "id": "m017",
-      "description": "Request inventory for B2B Hub - Liberty Plaza",
+      "description": "Request Inventory for B2B Hub - Liberty Plaza",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -245,7 +245,7 @@
     {
       "type": "item",
       "id": "m021",
-      "description": "Create sales materials, FAQs, and job aid",
+      "description": "Create Sales Materials, FAQs, and Job Aid",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -256,7 +256,7 @@
     {
       "type": "item",
       "id": "m022",
-      "description": "Approval of knowledge material",
+      "description": "Approval of Knowledge Material",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -289,7 +289,7 @@
     {
       "type": "item",
       "id": "m025",
-      "description": "Include competitive on Knowledge material",
+      "description": "Include Competitive on Knowledge Material",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -376,18 +376,18 @@
     {
       "type": "item",
       "id": "m031",
-      "description": "Define promotional strategy",
+      "description": "Define Promotional Strategy",
       "status": "Pending",
       "progress": 0,
       "comments": "How will be promoted in our social media & news. ",
       "risk": "",
       "mitigation": "",
-      "responsible": "Leymar Persico | Jose Cardona | Dalia Cruz"
+      "responsible": "Leymar Persico | Jose Cardona | Dalia Cruz | Vonmarie"
     },
     {
       "type": "item",
       "id": "m032",
-      "description": "Include Apple teaser on web pages",
+      "description": "Include Apple Teaser on Web Pages",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -398,7 +398,7 @@
     {
       "type": "item",
       "id": "m033",
-      "description": "Receipt of assets by Apple",
+      "description": "Receipt of Assets by Apple",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -447,7 +447,7 @@
     {
       "type": "item",
       "id": "m037",
-      "description": "Incentive proposal",
+      "description": "Incentive Proposal",
       "status": "Pending",
       "progress": 0,
       "comments": "Check if we will be providing an incentive for apple launch. ",
@@ -458,7 +458,7 @@
     {
       "type": "item",
       "id": "m038",
-      "description": "Incentive approval",
+      "description": "Incentive Approval",
       "status": "Pending",
       "progress": 0,
       "comments": "Check if we will be providing an incentive for apple launch. ",
@@ -474,7 +474,7 @@
     {
       "type": "item",
       "id": "m039",
-      "description": "Dashboard to monitor pre-order sales",
+      "description": "Dashboard to Monitor Pre-Order Sales",
       "status": "Pending",
       "progress": 0,
       "comments": "Replicate something like: https://app.powerbi.com/links/DkegPtSoQ4?ctid=9242cfad-7d27-4710-9998-e8c4de90927e&pbi_source=linkShare",
@@ -485,7 +485,7 @@
     {
       "type": "item",
       "id": "m040",
-      "description": "Report for orders completion & cancellations",
+      "description": "Report for Orders Completion & Cancellations",
       "status": "Pending",
       "progress": 0,
       "comments": "Replicate something like: https://app.powerbi.com/links/DkegPtSoQ4?ctid=9242cfad-7d27-4710-9998-e8c4de90927e&pbi_source=linkShare",
@@ -507,7 +507,7 @@
     {
       "type": "item",
       "id": "m044",
-      "description": "Confirm replace of dummy SKU value in SAP",
+      "description": "Confirm Replace of Dummy SKU Value in SAP",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -518,7 +518,7 @@
     {
       "type": "item",
       "id": "m046",
-      "description": "Confirm replace of dummy Promo / offers value in SF",
+      "description": "Confirm Replace of Dummy Promo / Offers Value in SF",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -529,7 +529,7 @@
     {
       "type": "item",
       "id": "m047",
-      "description": "Confirm replace of dummy SKU value in B2B Soft",
+      "description": "Confirm Replace of Dummy SKU Value in B2B Soft",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -540,7 +540,7 @@
     {
       "type": "item",
       "id": "m048",
-      "description": "Confirm new SKU's added in SF",
+      "description": "Confirm New SKU's Added in SF",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -551,7 +551,7 @@
     {
       "type": "item",
       "id": "m052",
-      "description": "Confirm DTC device allocation for B2B Hub",
+      "description": "Confirm DTC Device Allocation for B2B Hub",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -645,7 +645,7 @@
     {
       "type": "item",
       "id": "m060",
-      "description": "Cross-functional alignment",
+      "description": "Cross-functional Alignment",
       "status": "Pending",
       "progress": 0,
       "comments": "",
