@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": "2026-08-19T00:27:04.962Z"
+    "lastUpdated": "2026-08-20T18:09:19.979Z"
   },
   "rows": [
     {
@@ -27,46 +27,46 @@
     {
       "type": "item",
       "id": "m001",
-      "description": "Dummy offer configuration",
-      "status": "Pending",
-      "progress": 0,
+      "description": "Confirm Dummy offer configuration",
+      "status": "In Progress",
+      "progress": 25,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m002",
-      "description": "Submit Creation of Dummy SKU's in SAP",
-      "status": "Pending",
-      "progress": 0,
+      "description": "Confirm submittal for Creation of Dummy SKU's in SAP",
+      "status": "In Progress",
+      "progress": 25,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m003",
-      "description": "Submit Creation of Dummy SKU's in B2B Soft",
-      "status": "Pending",
-      "progress": 0,
+      "description": "Confirm submittal for Creation of Dummy SKU's in B2B Soft",
+      "status": "In Progress",
+      "progress": 25,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m004",
-      "description": "Submit Creation of Dummy SKU's in SF",
-      "status": "Pending",
-      "progress": 0,
+      "description": "Confirm submittal for Creation of Dummy SKU's in SF",
+      "status": "In Progress",
+      "progress": 25,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Dalia Cruz"
     },
     {
       "type": "item",
@@ -77,18 +77,18 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Salesforce Team"
     },
     {
       "type": "item",
       "id": "m006",
       "description": "Accessories Order",
-      "status": "Pending",
-      "progress": 0,
+      "status": "In Progress",
+      "progress": 25,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Janice De Leon"
     },
     {
       "type": "sub",
@@ -99,34 +99,23 @@
       "type": "item",
       "id": "m007",
       "description": "IT Demand requirements & submission",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
+      "status": "Complete",
+      "progress": 100,
+      "comments": "https://lla.atlassian.net/browse/IT-21526 | https://lla.atlassian.net/browse/IT-21434",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m008",
       "description": "IT Demand approval",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
+      "status": "In Progress",
+      "progress": 60,
+      "comments": "https://lla.atlassian.net/browse/IT-21526\nCristina Delgado - Waiting for approval\nManuel Lopez - Waiting for approval\nZoe Lawrenson - Waiting for approval\n\n",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m009",
-      "description": "Requirements refinement",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
@@ -148,7 +137,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Josue Quintana"
     },
     {
       "type": "item",
@@ -159,7 +148,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Josue Quintana"
     },
     {
       "type": "item",
@@ -170,7 +159,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Josue Quintana"
     },
     {
       "type": "item",
@@ -181,7 +170,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Josue Quintana"
     },
     {
       "type": "sub",
@@ -197,7 +186,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Dalia Cruz"
     },
     {
       "type": "item",
@@ -208,18 +197,18 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m017",
-      "description": "Channel distribution: Retail, CARE, Digital, Agents, B2B",
+      "description": "Request inventory for B2B Hub - Liberty Plaza",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Luis Torres"
     },
     {
       "type": "sub",
@@ -246,7 +235,18 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Anthony Pope"
+      "responsible": "Anthony Pope | Patricia Resto | Vernon Bent | Bryan Olivari"
+    },
+    {
+      "type": "item",
+      "id": "m067",
+      "description": "Customer Journey Creation - Retention Proactive Initiative",
+      "responsible": "Anthony Pope | Bryan Olivari | Oscar Kolster | Andrea Vergara",
+      "status": "Pending",
+      "progress": 0,
+      "comments": "",
+      "risk": "",
+      "mitigation": ""
     },
     {
       "type": "sub",
@@ -289,7 +289,7 @@
     {
       "type": "item",
       "id": "m024",
-      "description": "Training Execution",
+      "description": "Live Session",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -370,66 +370,6 @@
     },
     {
       "type": "sub",
-      "title": "Demo Devices",
-      "id": "sub006"
-    },
-    {
-      "type": "item",
-      "id": "m026",
-      "description": "Demo devices quantities (Handsets and accessories)",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m027",
-      "description": "Demo devices allocation",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m028",
-      "description": "Demo Devices creation on SAP",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m029",
-      "description": "Demo Devices creation on B2B Soft",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m030",
-      "description": "Test Dummy SKU's",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "sub",
       "title": "Marketing Strategy",
       "id": "sub007"
     },
@@ -439,10 +379,10 @@
       "description": "Define promotional strategy",
       "status": "Pending",
       "progress": 0,
-      "comments": "",
+      "comments": "How will be promoted in our social media & news. ",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Leymar Persico | Jose Cardona | Dalia Cruz"
     },
     {
       "type": "item",
@@ -453,7 +393,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Leymar Persico"
     },
     {
       "type": "item",
@@ -464,29 +404,29 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Leymar Persico"
     },
     {
       "type": "item",
       "id": "m034",
-      "description": "Digital Marketing campaign",
+      "description": "Email Blasters Creation",
       "status": "Pending",
       "progress": 0,
-      "comments": "",
+      "comments": "We need the following communications:\n1. Pre-Order Now with C2A for a Web Form or Whatsapp. \n2. Available Now C2A visit one of our stores or call us to order it now. \n3. Upgrade Device Art - C2A for a Web Form or Whatsapp. ",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Leymar Persico | Vonmarie | Keenan"
     },
     {
       "type": "item",
       "id": "m035",
-      "description": "Liberty Web Page",
+      "description": "Liberty Business Web Page Form",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Leymar Persico"
     },
     {
       "type": "item",
@@ -497,7 +437,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Dalia Cruz | Leymar Persico | Sonia Garcia"
     },
     {
       "type": "sub",
@@ -510,10 +450,10 @@
       "description": "Incentive proposal",
       "status": "Pending",
       "progress": 0,
-      "comments": "",
+      "comments": "Check if we will be providing an incentive for apple launch. ",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Yamil Bengochea"
     },
     {
       "type": "item",
@@ -521,10 +461,10 @@
       "description": "Incentive approval",
       "status": "Pending",
       "progress": 0,
-      "comments": "",
+      "comments": "Check if we will be providing an incentive for apple launch. ",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Yamil Bengochea"
     },
     {
       "type": "sub",
@@ -537,21 +477,21 @@
       "description": "Dashboard to monitor pre-order sales",
       "status": "Pending",
       "progress": 0,
-      "comments": "",
+      "comments": "Replicate something like: https://app.powerbi.com/links/DkegPtSoQ4?ctid=9242cfad-7d27-4710-9998-e8c4de90927e&pbi_source=linkShare",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Oscar Kolster | Andrea Vergara"
     },
     {
       "type": "item",
       "id": "m040",
-      "description": "Report for pre-order completion & cancellations",
+      "description": "Report for orders completion & cancellations",
       "status": "Pending",
       "progress": 0,
-      "comments": "",
+      "comments": "Replicate something like: https://app.powerbi.com/links/DkegPtSoQ4?ctid=9242cfad-7d27-4710-9998-e8c4de90927e&pbi_source=linkShare",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Oscar Kolster | Andrea Vergara"
     },
     {
       "type": "banner",
@@ -567,95 +507,51 @@
     {
       "type": "item",
       "id": "m044",
-      "description": "Replace dummy SKU value in SAP",
+      "description": "Confirm replace of dummy SKU value in SAP",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m045",
-      "description": "Extension of inventory among channels",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m046",
-      "description": "Replace dummy Promo / offers value in SF",
+      "description": "Confirm replace of dummy Promo / offers value in SF",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m047",
-      "description": "Replace dummy SKU value in B2B Soft",
+      "description": "Confirm replace of dummy SKU value in B2B Soft",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m048",
-      "description": "New SKU's added on SF",
+      "description": "Confirm new SKU's added in SF",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m049",
-      "description": "Launch and Allocation",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m050",
-      "description": "Arrival Date",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
-    },
-    {
-      "type": "item",
-      "id": "m051",
-      "description": "Define Retail device allocation",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
-      "risk": "",
-      "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana | Dalia Cruz"
     },
     {
       "type": "item",
       "id": "m052",
-      "description": "Define DTC device allocation (Digital, Call center)",
+      "description": "Confirm DTC device allocation for B2B Hub",
       "status": "Pending",
       "progress": 0,
       "comments": "",
@@ -672,7 +568,7 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Jose Cardona | Josue Quintana"
     },
     {
       "type": "banner",
@@ -683,68 +579,68 @@
     {
       "type": "item",
       "id": "m054",
-      "description": "System Testing - UAT & PROD",
+      "description": "System Testing - UAT & PROD Passed",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Josue Quintana"
     },
     {
       "type": "item",
       "id": "m055",
-      "description": "Customer Journey",
+      "description": "Customer Journey Readiness",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Anthony Pope"
     },
     {
       "type": "item",
       "id": "m056",
-      "description": "Content in My Knowledge",
+      "description": "My Knowledge Readiness",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "item",
       "id": "m057",
-      "description": "Training Execution",
+      "description": "Live Session Readiness",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Astrid Fuentes"
     },
     {
       "type": "item",
       "id": "m058",
-      "description": "Supply Chain Readiness: Inventory Distribution",
+      "description": "Supply Chain Readiness: Inventory Distribution for B2B Hub - Liberty Plaza",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Luis Torres | Supply Chain "
     },
     {
       "type": "item",
       "id": "m059",
-      "description": "Marketing Campaign Execution",
+      "description": "Marketing Campaign Readiness",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Leymar Persico"
     },
     {
       "type": "item",
@@ -755,18 +651,18 @@
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Patricia Resto | Vernon Bent | Maria Colon | Alejandro Guisasola | Bryan Olivari | Jose Cardona | Josue Quintana | Julio Rodriguez"
     },
     {
       "type": "item",
       "id": "m061",
-      "description": "Press release & Internal Communication",
+      "description": "Customer Facing Communications Readiness",
       "status": "Pending",
       "progress": 0,
       "comments": "",
       "risk": "",
       "mitigation": "",
-      "responsible": "Not Assigned Yet"
+      "responsible": "Sonia Garcia"
     }
   ]
 }
