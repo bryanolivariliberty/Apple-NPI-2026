@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": "2026-08-27T14:15:16.300Z"
+    "lastUpdated": "2026-08-28T13:34:51.844Z"
   },
   "rows": [
     {
@@ -309,7 +309,7 @@
       "responsible": "Sonia Garcia | Keenan",
       "status": "In Progress",
       "progress": 10,
-      "comments": "8/24/2026: Keenan confirmed no direct access to Apple/Samsung platforms, but assets can be requested once defined. Edwin coordinating with Bryan to specify exact needs.\n8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.",
+      "comments": "8/24/2026: Keenan confirmed no direct access to Apple/Samsung platforms, but assets can be requested once defined. Edwin coordinating with Bryan to specify exact needs.\n8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Next touchpoint Tuesday 9/1 — Sonia to present visual.",
       "risk": "",
       "mitigation": ""
     },
@@ -320,7 +320,7 @@
       "responsible": "Sonia Garcia",
       "status": "Pending",
       "progress": 10,
-      "comments": "Create 2 Banners for My BA to be configured in Salesforce. \n1. Pre Order\n2. Available NOW!!\n\n8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.",
+      "comments": "Create 2 Banners for My BA to be configured in Salesforce. \n1. Pre Order\n2. Available NOW!!\n\n8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Next touchpoint Tuesday 9/1 — Sonia to present visual.",
       "risk": "",
       "mitigation": ""
     },
@@ -331,8 +331,8 @@
       "responsible": "Sonia Garcia",
       "status": "In Progress",
       "progress": 10,
-      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.",
-      "risk": "",
+      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Potentially 2 of these 4 lifecycle emails will go out automatically, 2 manually — contingent on which Web Form plan is finalized with the agency. Next touchpoint Tuesday 9/1 — Sonia to present visual.",
+      "risk": "Automation split depends on agency's form-build decision (Plan A/B)",
       "mitigation": ""
     },
     {
@@ -341,9 +341,9 @@
       "description": "Pre-Order Confirmation",
       "responsible": "Sonia Garcia",
       "status": "In Progress",
-      "progress": 10,
-      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.",
-      "risk": "",
+      "progress": 20,
+      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Potentially 2 of these 4 lifecycle emails will go out automatically, 2 manually — contingent on which Web Form plan is finalized with the agency. Next touchpoint Tuesday 9/1 — Sonia to present visual.",
+      "risk": "Automation split depends on agency's form-build decision (Plan A/B)",
       "mitigation": ""
     },
     {
@@ -352,9 +352,9 @@
       "description": "Order Shipped",
       "responsible": "Sonia Garcia",
       "status": "In Progress",
-      "progress": 10,
-      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.",
-      "risk": "",
+      "progress": 20,
+      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Defect found in Tracking Number field — ticket submitted. Sonia to share ticket number. 2 of the 4 lifecycle emails (Lead Confirmation, Pre-Order Confirmation, Order Shipped, Backorder Device) may go out automatically, 2 manually — contingent on which Web Form plan is finalized with the agency. Next touchpoint Tuesday 9/1 — Sonia to present visual.",
+      "risk": "Tracking Number defect pending fix; email automation split depends on agency's form-build decision",
       "mitigation": ""
     },
     {
@@ -363,9 +363,9 @@
       "description": "Backorder Device",
       "responsible": "Sonia Garcia",
       "status": "In Progress",
-      "progress": 10,
-      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.",
-      "risk": "",
+      "progress": 20,
+      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Potentially 2 of these 4 lifecycle emails will go out automatically, 2 manually — contingent on which Web Form plan is finalized with the agency. Next touchpoint Tuesday 9/1 — Sonia to present visual.",
+      "risk": "Automation split depends on agency's form-build decision (Plan A/B)",
       "mitigation": ""
     },
     {
@@ -378,8 +378,8 @@
       "id": "m031",
       "description": "Define Promotional Strategy",
       "status": "In Progress",
-      "progress": 25,
-      "comments": "How will be promoted in our social media & news. \n8/24/2026: Promotions created under ticket IT-21526. Templates shared for iPhone 18 Enterprise and iPhone 18 VU consoles.",
+      "progress": 35,
+      "comments": "How will be promoted in our social media & news. \n8/24/2026: Promotions created under ticket IT-21526. Templates shared for iPhone 18 Enterprise and iPhone 18 VU consoles.\n8/27/2026: Confirmed acquisition advertising is Leymar's team's focus. Strategy defined: pre-order = existing base + website only; general availability = full 360 approach including traditional media.",
       "risk": "",
       "mitigation": "",
       "responsible": "Leymar Persico | Jose Cardona | Dalia Cruz | Vonmarie"
@@ -410,10 +410,10 @@
       "type": "item",
       "id": "m034",
       "description": "Email Blasters Creation",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "We need the following communications:\n1. Pre-Order Now with C2A for a Web Form or Whatsapp. \n2. Available Now C2A visit one of our stores or call us to order it now. \n3. Upgrade Device Art - C2A for a Web Form or Whatsapp. ",
-      "risk": "",
+      "status": "In Progress",
+      "progress": 15,
+      "comments": "We need the following communications:\n1. Pre-Order Now with C2A for a Web Form or Whatsapp. \n2. Available Now C2A visit one of our stores or call us to order it now. \n3. Upgrade Device Art - C2A for a Web Form or Whatsapp. \n\n8/27/2026: Confirmed in Leymar's scope (creative only, not distribution).",
+      "risk": "Open question — need to confirm if \"Upgrade Device Art\" targets the pre-order phase or general availability phase, to align creative timing",
       "mitigation": "",
       "responsible": "Leymar Persico | Vonmarie | Keenan"
     },
@@ -423,8 +423,8 @@
       "description": "Liberty Business Web Page Form",
       "status": "In Progress",
       "progress": 40,
-      "comments": "Can be worked ahead of announcement. Leymar following up via email with questions.\n8/25/2026: Leymar sent questions to Bryan re: pre-order form — (1) which sales group handles upgrade-customer inquiries, (2) confirm embedded form connected to a platform + required fields, (3) daily database export needs/timing. Awaiting Bryan's answers.\n8/27/2026: Bryan answered all open questions on sales ownership, form structure, and reporting cadence. Working session with the agency held to move into build.",
-      "risk": "Tight timeline — form must be live before pre-order opens",
+      "comments": "Can be worked ahead of announcement. Leymar following up via email with questions.\n8/25/2026: Leymar sent questions to Bryan re: pre-order form — (1) which sales group handles upgrade-customer inquiries, (2) confirm embedded form connected to a platform + required fields, (3) daily database export needs/timing. Awaiting Bryan's answers.\n8/27/2026: Bryan answered all open questions on sales ownership, form structure, and reporting cadence. Working session with the agency held to move into build.\n8/27/2026: Agency committed to verifying feasibility and providing a follow-up. Plan A (target: 9/4) — agency builds the form entirely on their end. If it slips past 9/4, Liberty would need to provide part of the build (Power Automate code). Rigoberto (Marketing) committed to sharing Leads vs. Conversion data from Salesforce.",
+      "risk": "Contingency plan needed if agency can't confirm feasibility by 9/4 — Liberty would need to build part of the form with Power Automate on a tight runway before pre-order opens",
       "mitigation": "",
       "responsible": "Leymar Persico"
     },
@@ -448,9 +448,9 @@
       "type": "item",
       "id": "m037",
       "description": "Incentive Proposal",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "Check if we will be providing an incentive for apple launch. ",
+      "status": "In Progress",
+      "progress": 10,
+      "comments": "8/27/2026: Discussed with Yamil and Patricia. Follow-up scheduled for Thursday, September 3.",
       "risk": "",
       "mitigation": "",
       "responsible": "Yamil Bengochea"
@@ -477,7 +477,7 @@
       "description": "Dashboard to Monitor Pre-Order Sales",
       "status": "Pending",
       "progress": 0,
-      "comments": "Replicate something like: https://app.powerbi.com/links/DkegPtSoQ4?ctid=9242cfad-7d27-4710-9998-e8c4de90927e&pbi_source=linkShare\n8/24/2026: Andrea needs to meet with Bryan to clarify Pre-Order questions and validate that the Athena table is correct for both reports.",
+      "comments": "Replicate something like: https://app.powerbi.com/links/DkegPtSoQ4?ctid=9242cfad-7d27-4710-9998-e8c4de90927e&pbi_source=linkShare\n8/24/2026: Andrea needs to meet with Bryan to clarify Pre-Order questions and validate that the Athena table is correct for both reports.\n8/27/2026: Key consideration — pre-order volume will mostly come from existing customers, handled by sales reps across multiple different areas. Dashboard/reporting design needs to account for rep- and channel-level visibility, not just aggregate totals.",
       "risk": "Blocked pending alignment with Bryan on data source/table",
       "mitigation": "",
       "responsible": "Oscar Kolster | Andrea Vergara"
