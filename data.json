@@ -4,7 +4,7 @@
     "announcementDate": "September 8",
     "preOrderRange": "September 11–17",
     "launchDate": "September 18",
-    "lastUpdated": "2026-08-28T13:34:51.844Z"
+    "lastUpdated": "2026-09-04T18:55:34.542Z"
   },
   "rows": [
     {
@@ -209,7 +209,7 @@
       "id": "m018",
       "description": "Customer Journey Creation - B2B Call Center/B2B Retail",
       "status": "In Progress",
-      "progress": 15,
+      "progress": 45,
       "comments": "8/27/2026: Team reviewed the customer journey flow. Last year's rollout worked well overall — main bottleneck was Customer Service meeting the 48-hour SLA. Anthony reviewing the flow; Vernon reviewing web/WhatsApp lead volume and automation.",
       "risk": "",
       "mitigation": "",
@@ -219,9 +219,9 @@
       "type": "item",
       "id": "m019",
       "description": "Customer Journey Creation - B2B Digital/Leads",
-      "status": "Pending",
-      "progress": 0,
-      "comments": "",
+      "status": "In Progress",
+      "progress": 45,
+      "comments": "9/4/2026: Pope delivered full journey mapping — Launch Journey (all entry points into Call Center/Retail) and Digital Leads Journey (WhatsApp/Web routing, PR + USVI) — plus a cross-journey gaps analysis. Open items still being tested/confirmed: DocuSign vs. click-to-accept T&C for SOHO/Small, retail ship-to-customer capability, St. John routing (Raymond Green/Catherine Kling), Teleperformance new-line scope.",
       "risk": "",
       "mitigation": "",
       "responsible": "Anthony Pope | Patricia Resto | Vernon Bent | Bryan Olivari"
@@ -232,8 +232,8 @@
       "description": "Customer Journey Creation - Retention Proactive Initiative",
       "responsible": "Anthony Pope | Bryan Olivari | Oscar Kolster | Andrea Vergara",
       "status": "In Progress",
-      "progress": 25,
-      "comments": "8/24/2026: Reviewing last year's Customer Journey. Expected update tomorrow.",
+      "progress": 55,
+      "comments": "8/24/2026: Reviewing last year's Customer Journey. Expected update tomorrow.\n8/31 team meeting: Customer base/contact list shared with Bryan Olivari. Outreach scope confirmed — progressive rollout of 200 contacts/month, limited to SOHO/Small accounts on installment plans under 6 months. Acceptance mechanism (click-through vs. DocuSign) pending confirmation from Pope — follow-up set for Thursday 9/3.\n9/4/2026: Full B2B Retention journey mapped end-to-end (batch query → Emarsys automation → fulfillment handoff), including data schema. DocuSign vs. click-through T&C decision still in testing — not yet confirmed by Pope.\n",
       "risk": "Blocked pending Bryan Olivari's confirmation on whether last year's PPT was the final version",
       "mitigation": "Follow up directly with Bryan"
     },
@@ -270,7 +270,7 @@
       "description": "Content in My Knowledge",
       "status": "Pending",
       "progress": 30,
-      "comments": "8/26/2026: Hub article in progress — will include initial launch offer (trade-in), model price list, available catalog, specs with link to Apple's model comparison portal. Also includes updating offer documents, the B2B Sales Tool with the launch offer, and the Device Handset Price List with updated SKUs to reflect price drop on existing models (not always immediate).",
+      "comments": "8/26/2026: Hub article in progress — will include initial launch offer (trade-in), model price list, available catalog, specs with link to Apple's model comparison portal. Also includes updating offer documents, the B2B Sales Tool with the launch offer, and the Device Handset Price List with updated SKUs to reflect price drop on existing models (not always immediate).\n8/31 team meeting: Bryan Olivari to review the Knowledge & Training plan for the retention initiative directly with Astrid Fuentes.",
       "risk": "",
       "mitigation": "",
       "responsible": "Astrid Fuentes"
@@ -341,8 +341,8 @@
       "description": "Pre-Order Confirmation",
       "responsible": "Sonia Garcia",
       "status": "In Progress",
-      "progress": 20,
-      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Potentially 2 of these 4 lifecycle emails will go out automatically, 2 manually — contingent on which Web Form plan is finalized with the agency. Next touchpoint Tuesday 9/1 — Sonia to present visual.",
+      "progress": 25,
+      "comments": "8/27/2026: Kickoff review meeting held 8/26. Follow-up meeting scheduled for 8/28 to continue definitions.\n8/28/2026: Potentially 2 of these 4 lifecycle emails will go out automatically, 2 manually — contingent on which Web Form plan is finalized with the agency. Next touchpoint Tuesday 9/1 — Sonia to present visual.\n9/4/2026: Automation for the Lead Confirmation email in build; targeting completion Tuesday 9/8. Sonia review meeting held today to continue Communications Strategy definitions.",
       "risk": "Automation split depends on agency's form-build decision (Plan A/B)",
       "mitigation": ""
     },
@@ -422,10 +422,10 @@
       "id": "m035",
       "description": "Liberty Business Web Page Form",
       "status": "In Progress",
-      "progress": 40,
-      "comments": "Can be worked ahead of announcement. Leymar following up via email with questions.\n8/25/2026: Leymar sent questions to Bryan re: pre-order form — (1) which sales group handles upgrade-customer inquiries, (2) confirm embedded form connected to a platform + required fields, (3) daily database export needs/timing. Awaiting Bryan's answers.\n8/27/2026: Bryan answered all open questions on sales ownership, form structure, and reporting cadence. Working session with the agency held to move into build.\n8/27/2026: Agency committed to verifying feasibility and providing a follow-up. Plan A (target: 9/4) — agency builds the form entirely on their end. If it slips past 9/4, Liberty would need to provide part of the build (Power Automate code). Rigoberto (Marketing) committed to sharing Leads vs. Conversion data from Salesforce.",
-      "risk": "Contingency plan needed if agency can't confirm feasibility by 9/4 — Liberty would need to build part of the form with Power Automate on a tight runway before pre-order opens",
-      "mitigation": "",
+      "progress": 75,
+      "comments": "Can be worked ahead of announcement. Leymar following up via email with questions.\n8/25/2026: Leymar sent questions to Bryan re: pre-order form — (1) which sales group handles upgrade-customer inquiries, (2) confirm embedded form connected to a platform + required fields, (3) daily database export needs/timing. Awaiting Bryan's answers.\n8/27/2026: Bryan answered all open questions on sales ownership, form structure, and reporting cadence. Working session with the agency held to move into build.\n8/27/2026: Agency committed to verifying feasibility and providing a follow-up. Plan A (target: 9/4) — agency builds the form entirely on their end. If it slips past 9/4, Liberty would need to provide part of the build (Power Automate code). Rigoberto (Marketing) committed to sharing Leads vs. Conversion data from Salesforce.\n8/31 team meeting: Bryan Olivari to review three open items before sign-off — re-routing logic, preferred-language handling, and Puerto Rico vs. USVI region logic.\n:9/2/2026: Working session held with Electric Factory — form validation completed successfully; functioning as expected. Follow-up meeting scheduled for 9/10 to continue.",
+      "risk": "Low — validation complete; monitoring for edge cases ahead of pre-order window opening 9/11.",
+      "mitigation": "Continuation meeting on 9/10 to review any outstanding items before pre-order launch.",
       "responsible": "Leymar Persico"
     },
     {
@@ -450,7 +450,7 @@
       "description": "Incentive Proposal",
       "status": "In Progress",
       "progress": 10,
-      "comments": "8/27/2026: Discussed with Yamil and Patricia. Follow-up scheduled for Thursday, September 3.",
+      "comments": "8/27/2026: Discussed with Yamil and Patricia. Follow-up scheduled for Thursday, September 3.\n9/4/2026: Yamil requested moving the working meeting to next week. No new decision yet on the incentive offer.",
       "risk": "",
       "mitigation": "",
       "responsible": "Yamil Bengochea"
